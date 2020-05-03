@@ -113,7 +113,6 @@ body {
   /* Tambahkan CSS untuk header-right */
   .header-right {
     float: right;
-    margin-right: -25px;
     background-color:rgba(255, 255, 255, 0.3);
     transition: all 0.5s;
   }
@@ -129,8 +128,6 @@ body {
     padding-right: 25px;
     color: white;
     display: block;
-    float: left;
-    transition: all 0.5s;
   }
 
   .lesson-wrapper {
@@ -139,15 +136,6 @@ body {
     background-color:#f7f7f7;
     text-align: center;
   }
-
-  .menu-icon{
-    color: white;
-    float: right;
-    font-size: 25px;
-    padding: 21px 0;
-    display: none;
-  }
-  
   
   /* Tambahkan CSS untuk heading */
   .heading {
@@ -227,5 +215,4 @@ body {
   /* Tambahkan CSS untuk tag <footer> */
   footer {
     padding-top: 30px;
-    padding-bottom: 20px;
   }
