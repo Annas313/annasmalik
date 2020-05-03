@@ -18,11 +18,8 @@ body {
   .container {
     max-width: 1170px;
     width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    
+    padding: 0 15px;
+    margin: 0 auto;
   }
 
   /* Tambahkan CSS untuk top-wrapper */
@@ -124,9 +121,6 @@ body {
   }
   
   /* Tambahkan CSS untuk header-right pada saat ditunjuk kursor */
-  .header-right:hover {
-    background-color:rgba(255, 255, 255, 0.5);
-  }
 
   .header-right a {
     line-height: 65px;
@@ -151,15 +145,17 @@ body {
   }
 
   .lesson-wrapper {
-    height: 500px;
     padding-bottom: 80px;
-    background-color:#f7f7f7;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
     text-align: center;
   }
   
+  
   /* Tambahkan CSS untuk heading */
   .heading {
-    padding-top: 60px;
+    padding-top: 80px;
     padding-bottom: 30px;
     color:#5f5d60;
   }
@@ -181,7 +177,7 @@ body {
   /* Tambahkan CSS untuk tag <p> didalam lesson-icon */
   .lesson-icon p {
     position: absolute;
-    top: 90px;
+    top: 44%;
     width: 100%;
     color: white;
   }
@@ -223,7 +219,7 @@ body {
   }
 
   footer img {
-    width: 30px;
+    width: 125px;
   }
   
   /* Tambahkan CSS untuk tag <p> yang berada didalam <footer> */
