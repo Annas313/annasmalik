@@ -1,14 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
     margin: 0;
-    font-family: "";
+    font-family: "Calibri";
   }
   
   a {
     text-decoration: none;
   }
 
+  .clear {
+    clear: left;
+  }
+
   .container {
-    width: 1170px;
+    max-width: 1170px;
+    width: 100%;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -28,7 +37,7 @@ body {
   .top-wrapper h1 {
     opacity: 0.7;
     font-size: 30px;
-    font-family: Frunch ;
+    font-family: Frunch;
     letter-spacing: 5px;
     margin-bottom: 10px;
   }
@@ -38,16 +47,18 @@ body {
     margin-bottom: 3px;
   }
   
+  .btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+  }
+
   .btn {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding: 12px 24px;
     color: white;
     display: inline-block;
     opacity: 0.8;
     border-radius: 4px;
-    
+    text-align: center;
   }
 
   .btn:hover {
@@ -72,15 +83,10 @@ body {
   }
   
   /* Tambahkan CSS untuk btn-wrapper */
-  .btn-wrapper {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
   
   /* Tambahkan CSS untuk tag <p> didalam class btn-wrapper */
   .btn-wrapper p {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px 0;
   }
   
   .fa {
@@ -124,10 +130,24 @@ body {
 
   .header-right a {
     line-height: 65px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding: 0 25px;
     color: white;
     display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    /* Gantikan property display ke none */
+    display: none;
   }
 
   .lesson-wrapper {
@@ -215,4 +235,5 @@ body {
   /* Tambahkan CSS untuk tag <footer> */
   footer {
     padding-top: 30px;
+    padding-bottom: 20px;
   }
